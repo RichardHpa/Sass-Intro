@@ -2,7 +2,9 @@
 
 
 //Declare variables
-$width : 1000px;
+$width : 100px;
+$primary-color: #3bbfce;
+
 body { 
 	margin: $margin;
 	padding: $margin;
@@ -24,3 +26,58 @@ body {
 	}
 }
 
+.blocks{
+	display: inline-block;
+	width: 100%;
+}
+
+.block-1{
+	height: 100px;
+	width: 100px;
+	background-color: $primary-color;
+	float: left;
+}
+
+.block-2{
+	height: 100px;
+	width: 100px;
+	background-color: darken($primary-color, 10%);
+	float: left;
+}
+
+.block-3{
+	height: 100px;
+	width: 100px;
+	background-color: lighten($primary-color, 10%);
+	float: left;
+}
+
+.block-4{
+	height: 100px;
+	width: 100px;
+	background-color: complement($primary-color);
+	float: left;
+}
+
+
+// Loops 
+$squareCount: 3;
+@for $i from 1 through $squareCount {
+	#square-#{$i} {
+	background-color: red;
+	width: 50px * $i;
+	height: 120px / $i;
+	}
+}
+
+//Mixin
+//Used for reusable data
+$font-base: 12px;
+
+@mixin sample {
+  font-size: $font-base;
+}
+
+p {
+  @include sample;
+}

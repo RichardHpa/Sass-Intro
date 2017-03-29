@@ -3,13 +3,61 @@ body {
   padding: 50px; }
 
 #Main-Container {
-  width: 1000px; }
+  width: 100px; }
 
 #Left-Container {
-  width: 500px; }
+  width: 50px; }
 
 .test {
   background-color: #3490db;
   padding: 20px; }
   .test #p1 {
     color: white; }
+
+.blocks {
+  display: inline-block;
+  width: 100%; }
+
+.block-1 {
+  height: 100px;
+  width: 100px;
+  background-color: #3bbfce;
+  float: left; }
+
+.block-2 {
+  height: 100px;
+  width: 100px;
+  background-color: #2b9eab;
+  float: left; }
+
+.block-3 {
+  height: 100px;
+  width: 100px;
+  background-color: #64ccd8;
+  float: left; }
+
+.block-4 {
+  height: 100px;
+  width: 100px;
+  background-color: #ce4a3b;
+  float: left; }
+
+#square-1 {
+  background-color: red;
+  width: 50px;
+  height: 120px; }
+
+#square-2 {
+  background-color: red;
+  width: 100px;
+  height: 60px; }
+
+#square-3 {
+  background-color: red;
+  width: 150px;
+  height: 40px; }
+
+p {
+  font-size: 12px; }
+
+/*# sourceMappingURL=style.css.map */
