@@ -1,0 +1,15 @@
+body {
+  margin: 50px;
+  padding: 50px; }
+
+#Main-Container {
+  width: 1000px; }
+
+#Left-Container {
+  width: 500px; }
+
+.test {
+  background-color: #3490db;
+  padding: 20px; }
+  .test #p1 {
+    color: white; }

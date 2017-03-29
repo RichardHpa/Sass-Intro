@@ -1,0 +1,26 @@
+@import 'partials';
+
+
+//Declare variables
+$width : 1000px;
+body { 
+	margin: $margin;
+	padding: $margin;
+}
+
+#Main-Container{
+	width: $width;
+}
+
+#Left-Container{
+	width: $width/2;
+}
+
+.test{
+	background-color: #3490db;
+	padding: 20px;
+	#p1 {
+		color: white;
+	}
+}
+
